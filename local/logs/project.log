@@ -1,0 +1,476 @@
+2019-05-23T03:20:07.391Z - normal: Load ~/.CocosCreator/settings.json
+2019-05-23T03:20:07.577Z - normal: Initializing Asset Database
+2019-05-23T03:20:07.623Z - normal: checking language setting...
+2019-05-23T03:20:07.623Z - normal: Language: en
+2019-05-23T03:20:10.291Z - success: preview server running at http://localhost:7456
+2019-05-23T03:20:10.337Z - success: protocol editor-framework registered
+2019-05-23T03:20:10.337Z - success: protocol app registered
+2019-05-23T03:20:10.338Z - success: protocol theme registered
+2019-05-23T03:20:10.338Z - success: protocol packages registered
+2019-05-23T03:20:10.338Z - success: protocol uuid registerred
+2019-05-23T03:20:10.338Z - success: protocol db registerred
+2019-05-23T03:20:10.338Z - success: protocol thumbnail registerred
+2019-05-23T03:20:10.338Z - success: protocol unpack registerred
+2019-05-23T03:20:10.338Z - success: protocol disable-commonjs registerred
+2019-05-23T03:20:11.310Z - normal: connected!
+2019-05-23T03:20:11.311Z - normal: Check project /Users/cheng.chungtheng/Desktop/Cocos
+2019-05-23T03:20:11.312Z - normal: Initializing project /Users/cheng.chungtheng/Desktop/Cocos
+2019-05-23T03:20:12.117Z - normal: Initializing Cocos2d
+2019-05-23T03:20:16.214Z - normal: Initializing engine extends
+2019-05-23T03:20:16.402Z - success: asset-db-debugger loaded
+2019-05-23T03:20:16.409Z - success: baidu-adapter loaded
+2019-05-23T03:20:16.414Z - success: color-picker loaded
+2019-05-23T03:20:16.629Z - success: fb-audience-network loaded
+2019-05-23T03:20:16.824Z - success: fb-live-stream loaded
+2019-05-23T03:20:16.862Z - success: google-play-instant loaded
+2019-05-23T03:20:17.003Z - success: huawei-runtime loaded
+2019-05-23T03:20:17.007Z - success: jsb-adapter loaded
+2019-05-23T03:20:17.063Z - success: oppo-runtime loaded
+2019-05-23T03:20:17.129Z - success: package-manager loaded
+2019-05-23T03:20:17.629Z - success: qqplay-adapter loaded
+2019-05-23T03:20:17.662Z - success: runtime-dev-tools loaded
+2019-05-23T03:20:17.706Z - success: sdkbox loaded
+2019-05-23T03:20:17.840Z - success: tester loaded
+2019-05-23T03:20:17.892Z - success: ui-grid loaded
+2019-05-23T03:20:17.926Z - success: ui-kit-preview-extra loaded
+2019-05-23T03:20:17.957Z - success: ui-kit-preview loaded
+2019-05-23T03:20:17.971Z - success: ui-kit loaded
+2019-05-23T03:20:18.028Z - success: ui-tree loaded
+2019-05-23T03:20:18.117Z - success: vivo-runtime loaded
+2019-05-23T03:20:18.139Z - success: weapp-adapter loaded
+2019-05-23T03:20:18.205Z - success: assets loaded
+2019-05-23T03:20:18.216Z - success: builder loaded
+2019-05-23T03:20:18.764Z - success: cocos-services loaded
+2019-05-23T03:20:18.782Z - success: console loaded
+2019-05-23T03:20:18.812Z - success: fb-instant-games loaded
+2019-05-23T03:20:18.826Z - success: game-window loaded
+2019-05-23T03:20:18.828Z - success: google-instant-games loaded
+2019-05-23T03:20:18.841Z - success: hierarchy loaded
+2019-05-23T03:20:18.852Z - success: inspector loaded
+2019-05-23T03:20:18.853Z - success: keystore loaded
+2019-05-23T03:20:18.865Z - success: node-library loaded
+2019-05-23T03:20:18.866Z - success: package-asset loaded
+2019-05-23T03:20:18.867Z - success: preferences loaded
+2019-05-23T03:20:18.877Z - success: project-exporter loaded
+2019-05-23T03:20:18.889Z - success: project-importer loaded
+2019-05-23T03:20:18.898Z - success: project-settings loaded
+2019-05-23T03:20:18.911Z - success: scene loaded
+2019-05-23T03:20:18.913Z - success: simulator-debugger loaded
+2019-05-23T03:20:18.914Z - success: sprite-editor loaded
+2019-05-23T03:20:18.926Z - success: store loaded
+2019-05-23T03:20:18.938Z - success: timeline loaded
+2019-05-23T03:20:27.121Z - normal: Loading packages
+2019-05-23T03:20:27.127Z - normal: Watching packages
+2019-05-23T03:20:27.236Z - normal: Run Application
+2019-05-23T03:20:28.546Z - info: Cocos Services load base data!
+2019-05-23T03:20:57.291Z - warn: Please change the definition of property 'music' in class 'NewClass'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    music: cc.Texture2D,
+If you use JS, it should be changed to:
+    music: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+If you use TS, it should be changed to:
+    %s: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+    }
+    %s: cc.Texture2D = null;
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-05-23T03:22:50.656Z - normal: Simulator: WORKAREA WIDTH 2048.00, HEIGHT 1027.00
+2019-05-23T03:22:50.675Z - normal: Simulator: FRAME SCALE = 0.75
+2019-05-23T03:22:50.961Z - normal: Simulator: 
+2019-05-23T03:22:50.962Z - normal: Simulator: {
+2019-05-23T03:22:50.962Z - normal: Simulator: 	build_type: DEBUG
+2019-05-23T03:22:50.962Z - normal: Simulator: 	gl.vendor: ATI Technologies Inc.
+2019-05-23T03:22:50.962Z - normal: Simulator: 	gl.supports_PVRTC: false
+2019-05-23T03:22:50.963Z - normal: Simulator: 	gl.renderer: AMD Radeon R9 M390 OpenGL Engine
+2019-05-23T03:22:50.963Z - normal: Simulator: 	gl.supports_ATITC: false
+2019-05-23T03:22:50.963Z - normal: Simulator: 	gl.supports_discard_framebuffer: false
+2019-05-23T03:22:50.963Z - normal: Simulator: 	gl.supports_NPOT: true
+2019-05-23T03:22:50.963Z - normal: Simulator: 	gl.max_texture_units: 16
+2019-05-23T03:22:50.963Z - normal: Simulator: 	gl.supports_ETC1: false
+2019-05-23T03:22:50.963Z - normal: Simulator: 	gl.max_texture_size: 16384
+2019-05-23T03:22:50.964Z - normal: Simulator: 	gl.supports_BGRA8888: false
+2019-05-23T03:22:50.964Z - normal: Simulator: 	gl.supports_vertex_array_object: true
+2019-05-23T03:22:50.964Z - normal: Simulator: 	gl.supports_OES_map_buffer: false
+2019-05-23T03:22:50.964Z - normal: Simulator: 	compiled_with_gl_state_cache: true
+2019-05-23T03:22:50.964Z - normal: Simulator: 	gl.supports_OES_packed_depth_stencil: false
+2019-05-23T03:22:50.964Z - normal: Simulator: 	gl.version: 2.1 ATI-2.8.38
+2019-05-23T03:22:50.965Z - normal: Simulator: 	gl.supports_S3TC: true
+2019-05-23T03:22:50.965Z - normal: Simulator: 	compiled_with_profiler: false
+2019-05-23T03:22:50.965Z - normal: Simulator: 	gl.supports_OES_depth24: false
+2019-05-23T03:22:50.965Z - normal: Simulator: }
+2019-05-23T03:22:51.014Z - normal: Simulator: Project Config:
+2019-05-23T03:22:51.014Z - normal: Simulator:     project dir: /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/
+2019-05-23T03:22:51.014Z - normal: Simulator:     writable path: $(PROJDIR)/
+2019-05-23T03:22:51.014Z - normal: Simulator:     script file: $(PROJDIR)/main.js
+2019-05-23T03:22:51.015Z - normal: Simulator:     frame size: 750 x 1334
+2019-05-23T03:22:51.015Z - normal: Simulator:     frame scale: 0.75
+2019-05-23T03:22:51.015Z - normal: Simulator:     show console: NO
+2019-05-23T03:22:51.015Z - normal: Simulator:     write debug log: NO ()
+2019-05-23T03:22:51.015Z - normal: Simulator:     listen: 
+2019-05-23T03:22:51.015Z - normal: Simulator:     debugger: none
+2019-05-23T03:22:51.016Z - normal: Simulator:     add searching path:
+2019-05-23T03:22:51.017Z - normal: Simulator: resetDesignResolution request
+2019-05-23T03:22:51.017Z - normal: Simulator: ------------------------------------------------
+2019-05-23T03:22:51.017Z - normal: Simulator: LOAD Js FILE: jsb-adapter/jsb-builtin.js
+2019-05-23T03:22:51.018Z - normal: Simulator: ------------------------------------------------
+2019-05-23T03:22:51.018Z - normal: Simulator: Initializing V8, version: 6.5.254.43
+2019-05-23T03:22:51.097Z - normal: Simulator: libuv version: 1.23.1-dev
+2019-05-23T03:22:51.105Z - normal: Simulator: Debugger listening..., visit [ chrome-devtools://devtools/bundled/inspector.html?v8only=true&ws=0.0.0.0:5086/00010002-0003-4004-8005-000600070008 ] in chrome browser to debug!
+2019-05-23T03:22:51.105Z - normal: Simulator: For help see https://nodejs.org/en/docs/inspector
+2019-05-23T03:22:51.283Z - normal: Simulator: JS: Enable batch GL commands optimization!
+2019-05-23T03:22:51.286Z - normal: Simulator: resetDesignResolution request
+2019-05-23T03:22:51.286Z - normal: Simulator: ------------------------------------------------
+2019-05-23T03:22:51.286Z - normal: Simulator: LOAD Js FILE: main.js
+2019-05-23T03:22:51.286Z - normal: Simulator: ------------------------------------------------
+2019-05-23T03:22:51.599Z - normal: Simulator: JS: No need to specify the "type" of "cc.EditBox._N$fontColor" because cc.Color is a child class of ValueType. Just set the default value to 'new cc.Color()' and it will be handled properly. cc.EditBox _N$fontColor cc.Color
+2019-05-23T03:22:51.604Z - normal: Simulator: JS: No need to specify the "type" of "cc.EditBox._N$placeholderFontColor" because cc.Color is a child class of ValueType. Just set the default value to 'new cc.Color()' and it will be handled properly. cc.EditBox _N$placeholderFontColor cc.Color
+2019-05-23T03:22:51.751Z - normal: Simulator: iShow!
+2019-05-23T03:22:51.907Z - normal: Simulator: JS: [WARN]: Please change the definition of property 'music' in class 'NewClass'. Starting from v1.10,
+2019-05-23T03:22:51.907Z - normal: Simulator: properties in CCClass can not be abbreviated if they are of type RawAsset.
+2019-05-23T03:22:51.907Z - normal: Simulator: Please use the complete form.
+2019-05-23T03:22:51.907Z - normal: Simulator: For example, if the type is Texture2D, the previous definition is:
+2019-05-23T03:22:51.907Z - normal: Simulator:     music: cc.Texture2D,
+2019-05-23T03:22:51.907Z - normal: Simulator: If you use JS, it should be changed to:
+2019-05-23T03:22:51.908Z - normal: Simulator:     music: {
+2019-05-23T03:22:51.908Z - normal: Simulator:       type: cc.Texture2D // use 'type:' to define Texture2D object directly
+2019-05-23T03:22:51.908Z - normal: Simulator:       default: null,     // object's default value is null
+2019-05-23T03:22:51.908Z - normal: Simulator:     },
+2019-05-23T03:22:51.909Z - normal: Simulator: If you use TS, it should be changed to:
+2019-05-23T03:22:51.909Z - normal: Simulator:     %s: {
+2019-05-23T03:22:51.909Z - normal: Simulator:       type: cc.Texture2D // use 'type:' to define Texture2D object directly
+2019-05-23T03:22:51.909Z - normal: Simulator:     }
+2019-05-23T03:22:51.909Z - normal: Simulator:     %s: cc.Texture2D = null;
+2019-05-23T03:22:51.911Z - normal: Simulator: (This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-05-23T03:22:51.916Z - normal: Simulator: glGetIntegerv: pname: 0x8b4c
+2019-05-23T03:22:51.933Z - normal: Simulator: JS: [WARN]: Failed to define shader 061403a4fee41e99c7fbd0d70d603c430d3f85dbed5674580d6326e7: already exists.
+2019-05-23T03:22:51.975Z - normal: Simulator: JS: Cocos Creator v2.1.1
+2019-05-23T03:22:52.479Z - normal: Simulator: I/AudioEngine-inl.mm (358): OpenAL was initialized successfully!
+2019-05-23T03:22:52.479Z - normal: Simulator: JS: half way
+2019-05-23T03:22:53.346Z - normal: Simulator: JS: half way
+2019-05-23T03:22:54.214Z - normal: Simulator: JS: half way
+2019-05-23T03:22:55.070Z - normal: Simulator: JS: half way
+2019-05-23T03:22:55.948Z - normal: Simulator: JS: half way
+2019-05-23T03:22:55.950Z - normal: Simulator: ScriptEngine::cleanup begin ...
+2019-05-23T03:22:55.950Z - normal: Simulator: GC begin ..., (js->native map) size: 30, all objects: 107
+2019-05-23T03:22:55.994Z - normal: Simulator: GC end ..., (js->native map) size: 30, all objects: 107
+2019-05-23T03:22:55.995Z - normal: Simulator: GC begin ..., (js->native map) size: 30, all objects: 107
+2019-05-23T03:22:56.032Z - normal: Simulator: GC end ..., (js->native map) size: 30, all objects: 107
+2019-05-23T03:22:56.032Z - normal: Simulator: Destroy WebGLProgram (3) by GC
+2019-05-23T03:22:56.032Z - normal: Simulator: Destroy WebGLTexture (13) by GC
+2019-05-23T03:22:56.032Z - normal: Simulator: Destroy WebGLTexture (12) by GC
+2019-05-23T03:22:56.033Z - normal: Simulator: Destroy WebGLTexture (11) by GC
+2019-05-23T03:22:56.035Z - normal: Simulator: Destroy WebGLTexture (9) by GC
+2019-05-23T03:22:56.035Z - normal: Simulator: Destroy WebGLBuffer (6) by GC
+2019-05-23T03:22:56.035Z - normal: Simulator: Destroy WebGLTexture (8) by GC
+2019-05-23T03:22:56.035Z - normal: Simulator: Destroy WebGLBuffer (8) by GC
+2019-05-23T03:22:56.035Z - normal: Simulator: Destroy WebGLTexture (6) by GC
+2019-05-23T03:22:56.036Z - normal: Simulator: Destroy WebGLTexture (4) by GC
+2019-05-23T03:22:56.036Z - normal: Simulator: Destroy WebGLBuffer (1) by GC
+2019-05-23T03:22:56.036Z - normal: Simulator: Destroy WebGLTexture (3) by GC
+2019-05-23T03:22:56.036Z - normal: Simulator: Destroy WebGLTexture (2) by GC
+2019-05-23T03:22:56.036Z - normal: Simulator: Destroy WebGLTexture (1) by GC
+2019-05-23T03:22:56.036Z - normal: Simulator: Destroy WebGLBuffer (4) by GC
+2019-05-23T03:22:56.037Z - normal: Simulator: Destroy WebGLBuffer (3) by GC
+2019-05-23T03:22:56.038Z - normal: Simulator: Destroy WebGLBuffer (5) by GC
+2019-05-23T03:22:56.038Z - normal: Simulator: Destroy WebGLTexture (10) by GC
+2019-05-23T03:22:56.038Z - normal: Simulator: Destroy WebGLTexture (7) by GC
+2019-05-23T03:22:56.038Z - normal: Simulator: Destroy WebGLTexture (5) by GC
+2019-05-23T03:22:56.038Z - normal: Simulator: Destroy WebGLBuffer (7) by GC
+2019-05-23T03:22:56.038Z - normal: Simulator: Destroy WebGLBuffer (2) by GC
+2019-05-23T03:22:56.039Z - normal: Simulator: GC begin ..., (js->native map) size: 0, all objects: 0
+2019-05-23T03:22:56.068Z - normal: Simulator: GC end ..., (js->native map) size: 0, all objects: 0
+2019-05-23T03:22:56.085Z - normal: Simulator: ScriptEngine::cleanup end ...
+2019-05-23T03:22:56.140Z - normal: Simulator: V/AudioPlayer (315): Exit rotate buffer thread ...
+2019-05-23T03:26:19.667Z - warn: Please change the definition of property 'music' in class 'NewClass'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    music: cc.Texture2D,
+If you use JS, it should be changed to:
+    music: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+If you use TS, it should be changed to:
+    %s: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+    }
+    %s: cc.Texture2D = null;
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-05-23T03:26:20.071Z - warn: Please change the definition of property 'music' in class 'NewClass'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    music: cc.Texture2D,
+If you use JS, it should be changed to:
+    music: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+If you use TS, it should be changed to:
+    %s: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+    }
+    %s: cc.Texture2D = null;
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-05-23T03:26:20.440Z - warn: Please change the definition of property 'music' in class 'NewClass'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    music: cc.Texture2D,
+If you use JS, it should be changed to:
+    music: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+If you use TS, it should be changed to:
+    %s: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+    }
+    %s: cc.Texture2D = null;
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-05-23T03:26:20.654Z - warn: Please change the definition of property 'music' in class 'NewClass'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    music: cc.Texture2D,
+If you use JS, it should be changed to:
+    music: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+If you use TS, it should be changed to:
+    %s: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+    }
+    %s: cc.Texture2D = null;
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-05-23T03:26:20.889Z - warn: Please change the definition of property 'music' in class 'NewClass'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    music: cc.Texture2D,
+If you use JS, it should be changed to:
+    music: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+If you use TS, it should be changed to:
+    %s: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+    }
+    %s: cc.Texture2D = null;
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-05-23T03:26:21.098Z - warn: Please change the definition of property 'music' in class 'NewClass'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    music: cc.Texture2D,
+If you use JS, it should be changed to:
+    music: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+If you use TS, it should be changed to:
+    %s: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+    }
+    %s: cc.Texture2D = null;
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-05-23T03:26:21.310Z - warn: Please change the definition of property 'music' in class 'NewClass'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    music: cc.Texture2D,
+If you use JS, it should be changed to:
+    music: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+If you use TS, it should be changed to:
+    %s: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+    }
+    %s: cc.Texture2D = null;
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-05-23T03:26:21.524Z - warn: Please change the definition of property 'music' in class 'NewClass'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    music: cc.Texture2D,
+If you use JS, it should be changed to:
+    music: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+If you use TS, it should be changed to:
+    %s: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+    }
+    %s: cc.Texture2D = null;
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-05-23T03:26:21.711Z - warn: Please change the definition of property 'music' in class 'NewClass'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    music: cc.Texture2D,
+If you use JS, it should be changed to:
+    music: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+If you use TS, it should be changed to:
+    %s: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+    }
+    %s: cc.Texture2D = null;
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-05-23T03:26:21.899Z - warn: Please change the definition of property 'music' in class 'NewClass'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    music: cc.Texture2D,
+If you use JS, it should be changed to:
+    music: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+If you use TS, it should be changed to:
+    %s: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+    }
+    %s: cc.Texture2D = null;
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-05-23T03:26:22.088Z - warn: Please change the definition of property 'music' in class 'NewClass'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    music: cc.Texture2D,
+If you use JS, it should be changed to:
+    music: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+If you use TS, it should be changed to:
+    %s: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+    }
+    %s: cc.Texture2D = null;
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-05-23T03:26:30.697Z - warn: Please change the definition of property 'music' in class 'NewClass'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    music: cc.Texture2D,
+If you use JS, it should be changed to:
+    music: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+If you use TS, it should be changed to:
+    %s: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+    }
+    %s: cc.Texture2D = null;
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-05-23T03:30:07.969Z - warn: Please change the definition of property 'music' in class 'NewClass'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    music: cc.Texture2D,
+If you use JS, it should be changed to:
+    music: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+If you use TS, it should be changed to:
+    %s: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+    }
+    %s: cc.Texture2D = null;
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-05-23T03:30:31.361Z - warn: Please change the definition of property 'music' in class 'NewClass'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    music: cc.Texture2D,
+If you use JS, it should be changed to:
+    music: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+If you use TS, it should be changed to:
+    %s: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+    }
+    %s: cc.Texture2D = null;
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-05-23T03:34:58.361Z - warn: Please change the definition of property 'music' in class 'NewClass'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    music: cc.Texture2D,
+If you use JS, it should be changed to:
+    music: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+If you use TS, it should be changed to:
+    %s: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+    }
+    %s: cc.Texture2D = null;
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-05-23T03:35:11.094Z - warn: Please change the definition of property 'music' in class 'NewClass'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    music: cc.Texture2D,
+If you use JS, it should be changed to:
+    music: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+If you use TS, it should be changed to:
+    %s: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+    }
+    %s: cc.Texture2D = null;
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-05-23T03:35:52.881Z - warn: Please change the definition of property 'music' in class 'NewClass'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    music: cc.Texture2D,
+If you use JS, it should be changed to:
+    music: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+If you use TS, it should be changed to:
+    %s: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+    }
+    %s: cc.Texture2D = null;
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-05-23T03:36:58.889Z - warn: Please change the definition of property 'music' in class 'NewClass'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    music: cc.Texture2D,
+If you use JS, it should be changed to:
+    music: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+If you use TS, it should be changed to:
+    %s: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+    }
+    %s: cc.Texture2D = null;
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )

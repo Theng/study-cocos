@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "mario-tube-png-4",
+    "texture": "dada5695-7561-4a5c-bd07-7a787b9a6f71",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      198,
+      300
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      198,
+      300
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
